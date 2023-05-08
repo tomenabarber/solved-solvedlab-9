@@ -1,0 +1,3 @@
+Download Link: https://assignmentchef.com/product/solved-solvedlab-9
+<br>
+Exercise 1 The Dice object was described in class in the following way: # # dice.py # Class definition for a multi-sided dice. # from random import randrange class Dice: def __init__(self, sides): self.sides = sides self.value = 1 def roll(self): self.value = randrange(1, self.sides+1) def getValue(self): return self.value def setValue(self, value): self.value = value def Main(): d = Dice(6) d.roll() print(“Value: “, d.getValue()) if __name__ == ‘__main__’: Main() Save the Dice program in cs177/lab09/dice.py Then write a dice game program that rolls the dice with you. Here is an example of the input/output: Press
